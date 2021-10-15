@@ -1,0 +1,21 @@
+{
+  "name": "celo-web-leccion-01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "watchify index.js -o static/bundle.js & lite-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@celo/contractkit": "^1.1.0",
+    "watchify": "^4.0.0",
+    "web3": "^1.3.5"
+  },
+  "devDependencies": {
+    "browserify": "^17.0.0",
+    "lite-server": "^2.6.1"
+  }
+}
