@@ -76,7 +76,7 @@ async function signEthTx(){
     let signedEthTx = await web3.eth.accounts.signTransaction(EthTx, account.privateKey)
     console.log('Tx ETH firmada: %o', signedEthTx)
 }
-// signEthTx()
+signEthTx()
 
 // Este ejemplo es solo para fines ilustrativos.
 // A continuación, veremos cómo el objeto de transacción de Celo es similar a Ethereum.
