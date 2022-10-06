@@ -10,9 +10,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@celo/contractkit": "^2.0.0",
+    "@celo/contractkit": "^2.2.0",
     "watchify": "^4.0.0",
-    "web3": "^1.7.3"
+    "web3": "^1.8.0"
   },
   "devDependencies": {
     "browserify": "^17.0.0",

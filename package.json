@@ -4,15 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lesson": "node lesson_eng.js"
   },
-  "author": "Nestor Bonilla <nbonilla@digitalbonds.org>",
+  "author": "Nestor Bonilla <nestor.bonilla@celo.org>",
   "license": "ISC",
   "dependencies": {
-    "@celo-tools/celo-ethers-wrapper": "^0.1.1",
-    "@celo/contractkit": "^2.0.0",
-    "dotenv": "^16.0.1",
-    "ethers": "^5.6.6",
-    "web3": "^1.7.3"
+    "@celo-tools/celo-ethers-wrapper": "^0.3.0",
+    "@celo/contractkit": "^2.2.0",
+    "dotenv": "^16.0.3",
+    "ethers": "^5.7.1",
+    "web3": "^1.8.0"
   }
 }

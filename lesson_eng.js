@@ -303,4 +303,4 @@ async function sendCELOWithEthers(){
     const txReceipt = await txResponse.wait()
     console.log(`celo-ethers Transaction: https://alfajores-blockscout.celo-testnet.org/tx/${txReceipt.transactionHash}/`)
 }
-sendCELOWithEthers()
+// sendCELOWithEthers()
